@@ -2,17 +2,16 @@
 
 // 1. Pedir número mediante prompt y sumarle otro número en cada repetición,realizando una salida por cada resultado
 
-// let numeroAux = 0;
+let numeroAux = 0;
 
-// let numero = parseInt(prompt("Hola! Por favor escribir un numero"));
+let numero = parseInt(prompt("Hola! Por favor escribir un numero"));
 
-// for (let i = 0; i < 5; i++) {
-//   numeroAux = numero + numeroAux;
+for (let i = 0; i < 5; i++) {
+  numeroAux = numero + numeroAux;
 
-//   alert(numeroAux);
-
-//   numero = parseInt(prompt("Hola! Por favor escribir un numero"));
-// }
+  alert(numeroAux);
+  numero = parseInt(prompt("Hola! Por favor escribir un numero"));
+}
 
 // 2. Pedir un texto mediante prompt, concatenar un valor en cada repetición, realizando una salida por cada resultado, hasta que se ingresa “ESC”.
 
