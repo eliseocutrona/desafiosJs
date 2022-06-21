@@ -51,3 +51,19 @@ for (let i = 0; i < 5; i++) {
 //         alert("Los correos deben de ser iguales");
 //     }
 // } while (askAgain);
+
+
+
+
+// Simulador de Compra
+
+// Hola chicos, les dejo todos los ejercicios vistos en la clase de hoy, les dejo también algunos desafíos sobre el simulador de compras:
+
+// Crear una variable que se podría llamar “cantidadTotal” donde vamos a almacenar las cantidades de los productos que el usuario haya comprado, inicializarla en 0 (cero).
+// Dentro del ciclo Do While usar la variable “cantidadtotal” para ir acumulando el valor de la variable “cantidad” en cada iteración, usar la notación += para ir acumulando los valores. Consejo hacerlo en la línea 32 luego de la variable “precioTotal”.
+// Mostrar por medio de un alert() el contenido de la variable “cantidadTotal” y “precioTotal” con un mensaje user friendly osea que el usuario lo pueda entender, por ejemplo: “A comprado 4 productos y el total es $3500”.
+
+
+// PLUS:
+
+// Crear un cuadro de diálogo por medio de un método confirm() donde preguntes al usuario algo como: ¿Desea finalizar la compra? almacenar esa respuesta booleana en una variable que se podría llamar “finalizarCompra” luego mediante una estructura if else mostrar un mensaje mediante un alert SI “finalizarCompra” esta seteado como “true” mostrar un mensaje que diga: “Su compra ha sido realizada con éxito” SINO “Esperamos volver a verle pronto” .
